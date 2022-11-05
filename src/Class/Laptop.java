@@ -1,3 +1,5 @@
+package Class;
+
 public class Laptop extends Komputer{
     public String jnsBatrei;
 

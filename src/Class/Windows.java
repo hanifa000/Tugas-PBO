@@ -1,3 +1,5 @@
+package Class;
+
 public class Windows extends Laptop{
     public String fitur;
 
@@ -10,8 +12,9 @@ public class Windows extends Laptop{
         this.fitur=fitur;
         System.out.println("Fitur               : "+fitur);
     }
+
     public void tampilWindows(){
-        System.out.println("=================Laptop Windows================");
+        System.out.println("=================Class.Laptop Class.Windows================");
         super.tampilLaptop();
 
     }

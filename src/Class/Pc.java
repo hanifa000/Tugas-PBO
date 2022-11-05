@@ -1,7 +1,7 @@
+package Class;
+
 public class Pc extends Komputer {
     private int ukuranMonitor;
-
-    public Pc(){}
 
     public int getUkuranMonitor() {
         return ukuranMonitor;
@@ -17,8 +17,6 @@ public class Pc extends Komputer {
     public void tampilPc(){
         System.out.println("=================PC================");
         super.tampilData();
-        setUkuranMonitor(24);
-        System.out.println("Ukuran monitor      : "+getUkuranMonitor());
     }
 
 }

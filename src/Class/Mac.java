@@ -1,3 +1,5 @@
+package Class;
+
 public class Mac extends Laptop{
     private String security;
 
@@ -9,7 +11,7 @@ public class Mac extends Laptop{
 
 
     public final void tampilMac(){
-        System.out.println("=================Laptop Mac================");
+        System.out.println("=================Class.Laptop Class.Mac================");
         super.tampilLaptop();
         System.out.println("Security            : "+security);
     }

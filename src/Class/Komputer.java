@@ -1,3 +1,5 @@
+package Class;
+
 public class Komputer {
     public String merk, jnsProsesor;
     private int kecProsesor, sizeMemory;
