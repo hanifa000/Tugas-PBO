@@ -1,6 +1,6 @@
 package Komputer.java;
 
-abstract class  Komputer { //class abstract
+public abstract class  Komputer { //class abstract
     public String merk, jnsProsesor; //property
     private int kecProsesor, sizeMemory; //property
 
