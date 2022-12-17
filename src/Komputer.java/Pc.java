@@ -1,6 +1,6 @@
 package Komputer.java;
 
-public class Pc extends Komputer {
+public class Pc extends Komputer implements Rekomendasi {
     private int ukuranMonitor; //property
 
     public Pc(String merk,int kecProsesor , int sizeMemory, String jnsProsesor) { //contructor
@@ -19,6 +19,13 @@ public class Pc extends Komputer {
     public void tampilData() { //override dr class abstract
         System.out.println("============================PC===========================");
         super.tampilData();
+
+    }
+
+    @Override
+    public void DisplayRekom() {
+        tampilData();
+        System.out.println("Rekomendasi         : " +rekomLaptop2);
         dekorasi();
     }
 }

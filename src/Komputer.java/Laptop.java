@@ -7,7 +7,7 @@ public class Laptop extends Komputer{ //class anak/warisan
         super(merk, kecProsesor, sizeMemory, jnsProsesor);
         this.jnsBatrei=jnsBatrei;
     }
-    public void tampilLaptop(){ //showo utput
+    public void tampilLaptop(){ //show output
         super.tampilData();
         System.out.println("Jenis baterai       : "+jnsBatrei);
     }

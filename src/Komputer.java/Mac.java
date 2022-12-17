@@ -1,6 +1,6 @@
 package Komputer.java;
 
-public class Mac extends Laptop{
+public class Mac extends Laptop implements Rekomendasi{
     private String security;
 
     public Mac(String merk, int kecProsesor, int sizeMemory, String jnsProsesor, String jnsBatrei, String security){
@@ -12,6 +12,13 @@ public class Mac extends Laptop{
         System.out.println("============================Mac===========================");
         super.tampilLaptop();
         System.out.println("Security            : "+security);
+
+    }
+
+    @Override
+    public void DisplayRekom() {
+        tampilMac();
+        System.out.println("Rekomendasi         : " +rekomLaptop3);
         dekorasi();
     }
 }

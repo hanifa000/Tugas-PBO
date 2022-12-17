@@ -1,6 +1,6 @@
 package Komputer.java;
 
-public class Windows extends Laptop{
+public class Windows extends Laptop implements Rekomendasi{
     public String fitur; //property
 
     public Windows(String merk, int kecProsesor, int sizeMemory, String jnsProsesor, String jnsBatrei, String fitur){ //constructor
@@ -12,7 +12,13 @@ public class Windows extends Laptop{
         System.out.println("===========================Windows==========================");
         super.tampilLaptop();
         System.out.println("Fitur               : "+fitur);
-        dekorasi();
+
     }
 
+    @Override
+    public void DisplayRekom() {
+        tampilWindows();
+        System.out.println("Rekomendasi         : " + rekomLaptop);
+        dekorasi();
+    }
 }
