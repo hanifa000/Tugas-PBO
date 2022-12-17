@@ -17,9 +17,9 @@ public abstract class  Komputer { //class abstract
     }
     public void tampilData(){
 //        dekorasi();
-        System.out.println("Merk                : "+merk);
-        System.out.println("Kecepatan Prosesor  : "+kecProsesor+" Ghz");
-        System.out.println("Ukuran Memory       : "+sizeMemory+" GB");
-        System.out.println("Jenis prosesor      : "+jnsProsesor);
+        System.out.println("Merk                 : "+merk);
+        System.out.println("Kecepatan Prosesor   : "+kecProsesor+" Ghz");
+        System.out.println("Ukuran Memory        : "+sizeMemory+" GB");
+        System.out.println("Jenis prosesor       : "+jnsProsesor);
     }
 }

@@ -11,14 +11,14 @@ public class Windows extends Laptop implements Rekomendasi{
     public void tampilWindows(){ //show output
         System.out.println("===========================Windows==========================");
         super.tampilLaptop();
-        System.out.println("Fitur               : "+fitur);
+        System.out.println("Fitur                : "+fitur);
 
     }
 
     @Override
     public void DisplayRekom() {
         tampilWindows();
-        System.out.println("Rekomendasi         : " + rekomLaptop);
+        System.out.println("Rekomendasi Aplikasi : \n" + aplikasi);
         dekorasi();
     }
 }

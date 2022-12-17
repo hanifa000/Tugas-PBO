@@ -9,7 +9,7 @@ public class Laptop extends Komputer{ //class anak/warisan
     }
     public void tampilLaptop(){ //show output
         super.tampilData();
-        System.out.println("Jenis baterai       : "+jnsBatrei);
+        System.out.println("Jenis baterai        : "+jnsBatrei);
     }
 
 }

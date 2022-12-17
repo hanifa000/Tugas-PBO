@@ -1,10 +1,17 @@
 package Komputer.java;
 
 public interface Rekomendasi {
-    //rekomendas dari google
+    //rekomendasi dari google
     //make property
-    String rekomLaptop = "HP Spectre x360 16";
-    String rekomLaptop2 = "ASUS Vivo AiO V222";
-    String rekomLaptop3 = "Macbook Pro MF839.";
+    String aplikasi = "- MS.Word\n" +
+                      "- MS.Excel\n" +
+                      "- MS.PowerPoint\n" +
+                      "- Microsoft Office\n" +
+                      "- Adobe\n" +
+                      "- Spotify\n" +
+                      "- Nettflix\n" +
+                      "- Google Drive\n" +
+                      "- Zoom\n" +
+                      "- Google Chrome / Safari";
     void DisplayRekom();
 }

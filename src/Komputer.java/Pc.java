@@ -25,7 +25,9 @@ public class Pc extends Komputer implements Rekomendasi {
     @Override
     public void DisplayRekom() {
         tampilData();
-        System.out.println("Rekomendasi         : " +rekomLaptop2);
+        setUkuranMonitor(24);
+        System.out.println("Ukuran monitor       : "+getUkuranMonitor());
+        System.out.println("Rekomendasi Aplikasi : \n" + aplikasi);
         dekorasi();
     }
 }

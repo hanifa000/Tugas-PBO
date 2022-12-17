@@ -11,14 +11,14 @@ public class Mac extends Laptop implements Rekomendasi{
     public final void tampilMac(){ //final
         System.out.println("============================Mac===========================");
         super.tampilLaptop();
-        System.out.println("Security            : "+security);
+        System.out.println("Security             : "+security);
 
     }
 
     @Override
     public void DisplayRekom() {
         tampilMac();
-        System.out.println("Rekomendasi         : " +rekomLaptop3);
+        System.out.println("Rekomendasi Aplikasi : \n" + aplikasi);
         dekorasi();
     }
 }

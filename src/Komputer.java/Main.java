@@ -19,8 +19,6 @@ public class Main {
         win.DisplayRekom();
 
         Pc p = new Pc("Asus", 5, 16, "Intel Core i7");
-        p.setUkuranMonitor(24);
-        System.out.println("Ukuran monitor      : "+p.getUkuranMonitor());
         p.DisplayRekom();
 
         // membuat variabel dan scanner
@@ -37,9 +35,12 @@ public class Main {
             if( jawab.equalsIgnoreCase(String.valueOf(0)) ){
                 running = false;
             }
-            else{
+            else if(jawab.equalsIgnoreCase(String.valueOf(1))){
                 System.out.println("kenapa? program hanya statis dan selesai:)");
                 System.out.println("Oke saya akan tanya kembali\n");
+            }
+            else{
+                System.out.println("Jawaban tidak sesuai pilihan hanya 0 = tidak & 1 = ya!");
             }
         }
     }
