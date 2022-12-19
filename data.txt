@@ -1,0 +1,20 @@
+
+============================Mac===========================
+ Merk                 : Macbook 
+ Kecepatan Prosesor   : 2 Ghz
+ Ukuran Memory        : 8 GB
+ Jenis prosesor       : Intel i9
+ Jenis baterai        : Lithium-Polymer
+ Security             : Chip
+ Rekomendasi Software : 
+ - MS.Word
+ - MS.Excel
+ - MS.PowerPoint
+ - Microsoft Office
+ - Adobe
+ - Spotify
+ - Netflix
+ - Google Drive
+ - Zoom
+ - Google Chrome / Safari
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
