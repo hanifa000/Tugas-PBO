@@ -37,29 +37,28 @@ public class Main {
                     create.println("\n============================PC===========================\n" +
                             " Merk                 : Asus\n Kecepatan Prosesor   : 5 Ghz\n Ukuran Memory        : 16 GB\n Jenis prosesor       : Intel Core i7\n Ukuran monitor       : 24\n Rekomendasi Software : \n" +
                             " - MS.Word\n - MS.Excel\n - MS.PowerPoint\n - Microsoft Office\n - Adobe\n - Spotify\n - Netflix\n - Google Drive\n - Zoom\n - Google Chrome / Safari\n" +
-                            "++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+                            "========================================================");
                     create.close();
-                    System.out.println("tercetak di file data.txt");
                     enter = false;
                 } else if (pilih.equalsIgnoreCase(String.valueOf("Mac"))) {
                     create.println("\n============================Mac===========================\n" +
                             " Merk                 : Macbook \n Kecepatan Prosesor   : 2 Ghz\n Ukuran Memory        : 8 GB\n Jenis prosesor       : Intel i9\n Jenis baterai        : Lithium-Polymer\n Security             : Chip\n Rekomendasi Software : \n" +
                             " - MS.Word\n - MS.Excel\n - MS.PowerPoint\n - Microsoft Office\n - Adobe\n - Spotify\n - Netflix\n - Google Drive\n - Zoom\n - Google Chrome / Safari\n" +
-                            "++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+                            "========================================================");
                     create.close();
                     enter = false;
                 } else if (pilih.equalsIgnoreCase(String.valueOf("Windows"))) {
                     create.println("\n===========================Windows==========================\n" +
                             " Merk                 : HP \n Kecepatan Prosesor   : 4 Ghz\n Ukuran Memory        : 8 GB\n Jenis prosesor       : Intel Core i7\n Jenis baterai        : Li-Polymer 90Wh\n Fitur                : Dilengkapi Mekanikal Keyboard\n Rekomendasi Software : \n" +
                             " - MS.Word\n - MS.Excel\n - MS.PowerPoint\n - Microsoft Office\n - Adobe\n - Spotify\n - Netflix\n - Google Drive\n - Zoom\n - Google Chrome / Safari\n" +
-                            "++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+                            "========================================================");
                     create.close();
-                    System.out.println("tercetak di file data.txt");
                     enter = false;
                 } else {
                     System.out.println("pilihan tidak tersedia, silahkan pilih lagi!");
                     enter = true;
                 }
+                System.out.println("tercetak di file data.txt");
             }
 
         } catch (Exception e) {
